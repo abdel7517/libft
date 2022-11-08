@@ -11,6 +11,7 @@ SRC = ./ft_memset.c \
 	./ft_strcat.c \
 	./ft_strncat.c \
 	./ft_strlcat.c \
+	./ft_strlcpy.c \
 	./ft_strchr.c \
 	./ft_strrchr.c \
 	./ft_strstr.c\
@@ -22,11 +23,16 @@ SRC = ./ft_memset.c \
 	./ft_isalnum.c \
 	./ft_isascii.c \
 	./ft_isprint.c \
+	./ft_isdigit.c \
 	./ft_toupper.c \
 	./ft_tolower.c \
+	./ft_calloc.c \
 	./ft_memalloc.c \
 	./ft_strjoin.c \
-	./ft_substr.c
+	./ft_substr.c \
+	./ft_strtrim.c \
+	./ft_split.c  \
+	./ft_itoa.c
 
 OBJ = $(SRC:.c=.o)
 
